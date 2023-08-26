@@ -93,7 +93,7 @@ html,body{
 
 /* Main header */
 #mainFlyer {
-    background-image:url(/BannerImages/topMain.webp);
+    background-image:url(/images/BannerImages/topMain.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding:100px 180px;
@@ -134,4 +134,65 @@ html,body{
 
 #leftData button:hover{
     background-color:black;
+}
+
+/* deals banners */
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+#main #left{
+    margin:40px 20px 40px 40px;
+    color:white;
+    padding:80px;
+    background-image: url(/images/BannerImages/MobileBan.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
+}
+
+#main #left p{
+    font-size: 1.2rem;
+}
+
+#main #left h1{
+    font-size: 3.5rem;
+    width:200px;
+    margin:5px 0;
+}
+
+#main #left button{
+    padding:10px 40px;
+    border-radius: 50px;
+    border:0;
+    font-size: 1.0rem;
+    margin-top:15px;
+}
+
+#main #right{
+    margin:40px 40px 40px 20px;
+    color:white;
+    padding:80px;
+    background-image: url(/images/BannerImages/HeadPhoneBan.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:50%;
+}
+
+#main #right p{
+    font-size: 1.2rem;
+}
+
+#right h1{
+    font-size: 3.5rem;
+    width:400px;
+    margin:5px 0;
+}
+#right button{
+    padding:10px 40px;
+    border-radius: 50px;
+    border:0;
+    font-size: 1.0rem;
+    margin-top:15px;
 }
