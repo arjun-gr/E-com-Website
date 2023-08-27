@@ -196,3 +196,28 @@ html,body{
     font-size: 1.0rem;
     margin-top:15px;
 }
+
+/* website more data */
+#main-mid{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    background-color: white;
+    padding:65px 120px
+}
+
+#main-mid div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#main-mid p{
+    width:130px;
+    margin-left:20px;
+    font-size:1.1rem;
+}
+
+#main-mid img{
+    width:45px;
+}
